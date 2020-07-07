@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1200px){
+
+	header{
+		height: 75vh;
+	}
+	.row{
+		margin: 0 15px;
+	}
+	.about-img{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.about-review{
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-left: auto;
+	}
+	.about-section .box{
+		padding: 0;
+	}
+	.welcome-content{
+		width: 90%;
+	}
+
+}
+@media only screen and (max-width: 1024px){
+
+	.main-nav{
+		display: none;
+	}
+	html{
+	font-size: 57.5%;
+	scroll-behavior: smooth;
+	}
+	.contact-section form{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.mobile-menu span{
+	    display: block;
+	}
+
+}
+@media only screen and (max-width: 980px){
+	.span_1_of_4{
+		width: 49.2%;
+	}
+	.span_1_of_4:nth-child(3) {
+		margin-left: 0;
+		margin-top: 6rem;
+	}
+	.span_1_of_4:nth-child(4) {
+		margin-top: 6rem;
+	}
+	html{
+		font-size: 62.5%;
+	}
+	.about-section .col:nth-child(2),
+	.about-section .col:nth-child(4){
+		margin-left: 0;
+	}
+	.prog-box {
+   	    padding: auto;
+     	margin: auto;
+    }
+}
+@media only screen and (max-width: 768px){
+	.para{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.prog-box {
+   	    padding: auto;
+     	margin: auto;
+    }
+    .footer-section li a {
+   	    font-size: 2rem;
+	}
+	.footer-section li {
+   	    margin: 0 1rem;
+	}
+}
+@media only screen and (max-width: 480px){
+	.span_1_of_4{
+		width: 100%;
+	}
+	.welcome-content{
+		width: 100%;
+	}
+	h1 {
+   	    font-size: 2.7rem;
+	}
+	h2 {
+        font-size: 2.9rem;
+	}
+	.para{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.contact-section .para{
+	    width: 90%;
+	    margin-left: 5%;
+	}
+	.team-section p {
+	    width: 90%;
+	    margin-left: 5%;
+	}
+	.col:nth-child(2){
+		margin-top: 6rem;
+	}
+	header{
+		height: 75vh;
+	}
+	.protfolio-button button {
+   	    margin: 0 .2rem;
+    	padding: .7rem 1.4rem;
+    	font-size: 1.5rem;
+	}
+	form .row:nth-child(3) {
+    	margin: 0;
+	}
+	.btn-protfolio {
+    	padding: 1.5rem 4rem;
+	}
+}
